@@ -1,0 +1,194 @@
+@import url("../css/reset.css");
+// reset.css
+
+// header-start
+header {
+  #header-container {
+    width: 100%;
+    height: 156px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: black;
+    .header-top {
+      display: flex;
+      .cs {
+        position: absolute;
+        top: 28px;
+        left: 28px;
+      }
+      a {
+        font-weight: 400;
+        line-height: 19.36px;
+        color: #ffffff;
+      }
+      .sns {
+        display: flex;
+        position: absolute;
+        top: 28px;
+        right: 28px;
+        li {
+          &:nth-child(1) a {
+            width: 19px;
+            height: 19px;
+            display: block;
+            background: url(../image/heart_white\ 1.png) no-repeat top center;
+          }
+          &:nth-child(2) a {
+            width: 19px;
+            height: 19px;
+            display: block;
+            background: url(../image/user_whith\ 1.png) no-repeat top center;
+          }
+          &:nth-child(3) a {
+            width: 19px;
+            height: 19px;
+            display: block;
+            background: url(../image/shopingbag_white\ 1.png) no-repeat top
+              center;
+          }
+          &:nth-child(4) a {
+            width: 19px;
+            height: 19px;
+            display: block;
+            background: url(../image/globe_white\ 1.png) no-repeat top center;
+          }
+          display: flex;
+          padding: 0 0 0 16px;
+        }
+      }
+    }
+    #logo {
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    .gnb {
+      width: 100%;
+      .menu {
+        display: flex;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        li {
+          &:nth-child(4) {
+            background: url(../image/search_white\ 1.png) no-repeat center
+              center;
+            cursor: pointer;
+          }
+          a {
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21.78px;
+            letter-spacing: 2%;
+            text-align: center;
+            padding: 0 20px;
+            word-break: keep-all;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  #footer-container {
+    width: 100%;
+    position: relative;
+    .footer-wrapper {
+      width: 100%;
+      .cs-service-bar {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        background: #f5f5f5;
+        padding: 40px 0;
+        .item01,
+        .item02,
+        .item03,
+        .item04 {
+          a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          p {
+            margin-top: 19px;
+          }
+        }
+      }
+      .follow {
+        width: 78%;
+        margin: 0 auto;
+        p {
+          text-align: center;
+          font-weight: 400;
+          font-size: 18px;
+          text-transform: uppercase;
+          margin-top: 49px;
+          margin-bottom: 17px;
+        }
+        ul {
+          display: flex;
+          justify-content: center;
+          li {
+            margin: 0 22px;
+            a {
+              margin-bottom: 64px;
+            }
+          }
+          .f-fb {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url(../image/facebook.png);
+          }
+          .f-is {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url(../image/instagram.png);
+          }
+          .f-tw {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url(../image/twitter.png);
+          }
+          .f-yt {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url(../image/youtube.png);
+          }
+          .f-ot {
+            display: block;
+            width: 33px;
+            height: 33px;
+            background: url(../image/share.png);
+          }
+        }
+      }
+      .footer-bottom {
+        text-align: center;
+        background: black;
+        padding: 1.8% 23.7%;
+        :nth-child(1) {
+          font-weight: 400;
+          font-size: 12px;
+          color: #ffffff;
+          margin-bottom: 15px;
+        }
+        :nth-child(2) {
+          font-weight: 400;
+          font-size: 14px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

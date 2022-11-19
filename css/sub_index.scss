@@ -1,0 +1,123 @@
+@import url(common.css);
+// index.css
+@import url("../css/font.css");
+// font.css
+@import url("../css/media.css");
+// media.css
+body {
+  font-family: "Inter";
+}
+// main-start
+#main-container {
+  width: 100%;
+  position: relative;
+  .top-content01 {
+    width: 100%;
+    display: flex;
+    height: 400px;
+    .content01-textBox {
+      width: 100%;
+      position: relative;
+      margin-top: 7%;
+      margin-left: 6%;
+      // padding: 6% 10%;
+      :nth-child(1) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43px;
+        padding-bottom: 16px;
+      }
+      :nth-child(2) {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26.6px;
+      }
+    }
+  }
+  .main-content-wrapper {
+    width: 95%;
+    display: flex;
+    .side-bar {
+      width: 20%;
+      position: relative;
+      .side-nav-bar {
+        width: 100%;
+        display: flex;
+        margin: 37px 0 64px 53px;
+      }
+      .side-category {
+        width: 100%;
+        margin-left: 53px;
+        .selector {
+          width: 100%;
+          display: flex;
+          margin-bottom: 30px;
+          p {
+            width: 20%;
+          }
+          .style::after {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 206px;
+            background: #000;
+            position: absolute;
+            top: 2%;
+            left: 150px;
+            transform: rotate(90deg);
+          }
+          fieldset {
+            width: 100%;
+            select {
+              width: 150px;
+              text-align: center;
+              text-align-last: center;
+              font-size: 16px;
+              border: none;
+              background: url("../image/caret-down\ 1.png") no-repeat 95% 100%;
+              appearance: none;
+              cursor: pointer;
+              outline: none;
+            }
+          }
+        }
+        ul {
+          width: 100%;
+          li {
+            width: 100%;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+    .content-items {
+      width: 100%;
+      margin-top: 131px;
+      text-align: center;
+      margin-bottom: 542px;
+      .content01-items {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .wrap {
+          width: 20%;
+          margin-bottom: 102px;
+        }
+        p {
+          margin: 5px 0;
+          &:nth-child(4) {
+            margin: 20px 0;
+          }
+        }
+        fieldset {
+          input {
+            background: #000;
+            color: white;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+// word-break: keep-all;

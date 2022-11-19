@@ -1,0 +1,185 @@
+@import url("../css/reset.css");
+header #header-container {
+  width: 100%;
+  height: 156px;
+  position: relative;
+  left: 0;
+  top: 0;
+  background: black;
+}
+header #header-container .header-top {
+  display: flex;
+}
+header #header-container .header-top .cs {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+header #header-container .header-top a {
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #ffffff;
+}
+header #header-container .header-top .sns {
+  display: flex;
+  position: absolute;
+  top: 28px;
+  right: 28px;
+}
+header #header-container .header-top .sns li {
+  display: flex;
+  padding: 0 0 0 16px;
+}
+header #header-container .header-top .sns li:nth-child(1) a {
+  width: 19px;
+  height: 19px;
+  display: block;
+  background: url(../image/heart_white\ 1.png) no-repeat top center;
+}
+header #header-container .header-top .sns li:nth-child(2) a {
+  width: 19px;
+  height: 19px;
+  display: block;
+  background: url(../image/user_whith\ 1.png) no-repeat top center;
+}
+header #header-container .header-top .sns li:nth-child(3) a {
+  width: 19px;
+  height: 19px;
+  display: block;
+  background: url(../image/shopingbag_white\ 1.png) no-repeat top center;
+}
+header #header-container .header-top .sns li:nth-child(4) a {
+  width: 19px;
+  height: 19px;
+  display: block;
+  background: url(../image/globe_white\ 1.png) no-repeat top center;
+}
+header #header-container #logo {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+header #header-container .gnb {
+  width: 100%;
+}
+header #header-container .gnb .menu {
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+header #header-container .gnb .menu li:nth-child(4) {
+  background: url(../image/search_white\ 1.png) no-repeat center center;
+  cursor: pointer;
+}
+header #header-container .gnb .menu li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 2%;
+  text-align: center;
+  padding: 0 20px;
+  word-break: keep-all;
+}
+
+footer #footer-container {
+  width: 100%;
+  position: relative;
+}
+footer #footer-container .footer-wrapper {
+  width: 100%;
+}
+footer #footer-container .footer-wrapper .cs-service-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #f5f5f5;
+  padding: 40px 0;
+}
+footer #footer-container .footer-wrapper .cs-service-bar .item01 a,
+footer #footer-container .footer-wrapper .cs-service-bar .item02 a,
+footer #footer-container .footer-wrapper .cs-service-bar .item03 a,
+footer #footer-container .footer-wrapper .cs-service-bar .item04 a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer #footer-container .footer-wrapper .cs-service-bar .item01 p,
+footer #footer-container .footer-wrapper .cs-service-bar .item02 p,
+footer #footer-container .footer-wrapper .cs-service-bar .item03 p,
+footer #footer-container .footer-wrapper .cs-service-bar .item04 p {
+  margin-top: 19px;
+}
+footer #footer-container .footer-wrapper .follow {
+  width: 78%;
+  margin: 0 auto;
+}
+footer #footer-container .footer-wrapper .follow p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 49px;
+  margin-bottom: 17px;
+}
+footer #footer-container .footer-wrapper .follow ul {
+  display: flex;
+  justify-content: center;
+}
+footer #footer-container .footer-wrapper .follow ul li {
+  margin: 0 22px;
+}
+footer #footer-container .footer-wrapper .follow ul li a {
+  margin-bottom: 64px;
+}
+footer #footer-container .footer-wrapper .follow ul .f-fb {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background: url(../image/facebook.png);
+}
+footer #footer-container .footer-wrapper .follow ul .f-is {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background: url(../image/instagram.png);
+}
+footer #footer-container .footer-wrapper .follow ul .f-tw {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background: url(../image/twitter.png);
+}
+footer #footer-container .footer-wrapper .follow ul .f-yt {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background: url(../image/youtube.png);
+}
+footer #footer-container .footer-wrapper .follow ul .f-ot {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background: url(../image/share.png);
+}
+footer #footer-container .footer-wrapper .footer-bottom {
+  text-align: center;
+  background: black;
+  padding: 1.8% 23.7%;
+}
+footer #footer-container .footer-wrapper .footer-bottom :nth-child(1) {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+footer #footer-container .footer-wrapper .footer-bottom :nth-child(2) {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}/*# sourceMappingURL=common.css.map */
